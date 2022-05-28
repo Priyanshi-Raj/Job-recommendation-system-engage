@@ -71,8 +71,14 @@ etc.
   Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
   
   ![image](https://user-images.githubusercontent.com/36665975/70401457-a7530680-1a55-11ea-9158-97d4e8515ca4.png)
+  
+ ##  Decision Tree Recommendation
+  A decision tree is a type of supervised machine learning used to categorize or make predictions based on how a previous set of questions were answered. The model is a form of supervised learning, meaning that the model is trained and tested on a set of data that contains the desired categorization.
+  
+ ## Content Based Filtering
+ Content-based filtering is a type of recommender system that attempts to guess what a user may like based on that user's activity. 
 
-##  Dependencies :  
+ ##  Dependencies :  
   1.matplot.lib
   
   2.numpy
