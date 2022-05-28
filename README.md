@@ -19,6 +19,14 @@
  
  ➡️   [How Cosine Similarity works?](#-how-cosine-similarity-works?)
  
+ ➡️   [Decision Tree Recommendation](#-decision-tree-recommendation) 
+ 
+ ➡️   [Content Based Filtering](#-content-based-filtering) 
+ 
+ ➡️   [Dependencies](#-dependencies)
+ 
+ ➡️   [Data Source](#-data-source)
+ 
 
 ## 👩‍ Overview
 It is a web-based application that suggests users the most suitable jobs for them.
@@ -45,7 +53,7 @@ etc.
 
 1. Clone or download this repository to your local machine.
 
-2. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/Movie-Recommendation-System-with-Sentiment-    Analysis/blob/master/requirements.txt) file
+2. Install all the libraries mentioned in the [Dependencies](#-dependencies)
 
 3. Get the data from dataset folder in this [drive link](https://drive.google.com/drive/folders/1jGbHGVFk_FtySDhIKmZd1VjJdtfuq-bI?usp=sharing)
 
