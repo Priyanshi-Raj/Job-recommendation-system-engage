@@ -15,7 +15,7 @@
  
  ➡️   [How to run the project?](#-how-to-run-the-project?)
  
- ➡️   [Similarity Score :](#-similarity-score :)
+ ➡️   [Similarity Score :](#-similarity-score-:)
  
  ➡️   [How Cosine Similarity works?](#-how-cosine-similarity-works?)
  
@@ -44,11 +44,14 @@ etc.
 ## 👩‍ How to run the project?
 
 1. Clone or download this repository to your local machine.
+
 2. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/Movie-Recommendation-System-with-Sentiment-    Analysis/blob/master/requirements.txt) file
+
 3. Get the data from dataset folder
+
 4. Open your terminal/command prompt from your project directory and run the file in virtual environment.
-5. Type the command [streamlit run app.py]
-6. Hurray! That's it.
+6. Type the command [streamlit run app.py]
+7. Hurray! That's it.
 
 ## 👩‍ Similarity Score : 
 
@@ -63,6 +66,7 @@ etc.
 
 ## 👩‍ Dependencies :  
   ### matplot.lib
+  ###
 
 
 
