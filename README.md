@@ -47,7 +47,7 @@ etc.
 
 2. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/Movie-Recommendation-System-with-Sentiment-    Analysis/blob/master/requirements.txt) file
 
-3. Get the data from dataset folder
+3. Get the data from dataset folder in this [drive link](https://drive.google.com/drive/folders/1jGbHGVFk_FtySDhIKmZd1VjJdtfuq-bI?usp=sharing)
 
 4. Open your terminal/command prompt from your project directory and run the file in virtual environment.
 6. Type the command [streamlit run app.py]
@@ -81,6 +81,7 @@ etc.
   
   8.wordcloud
 ##  Data source : Naukri.com
+    Entire data: https://drive.google.com/drive/folders/1jGbHGVFk_FtySDhIKmZd1VjJdtfuq-bI?usp=sharing
 
 
 
