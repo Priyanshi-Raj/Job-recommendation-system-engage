@@ -2,7 +2,7 @@
 
 # 📖 JOBS RECOMMENDATION SYSTEM
 ### 🧐 Get the job you are most suitable for!!
-# Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
+
 
 ![Python](https://img.shields.io/badge/Python-3.9-blueviolet)
 ![Frontend](https://img.shields.io/badge/Framework-streamlit-red)
