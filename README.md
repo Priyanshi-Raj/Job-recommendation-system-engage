@@ -66,14 +66,21 @@ etc.
 
 ##  Dependencies :  
   1.matplot.lib
+  
   2.numpy
+  
   3.pandas
+  
   4.requests
+  
   5.seaborn
+  
   6.streamlit
+  
   7.streamlit_option_menu
+  
   8.wordcloud
-
+##  Data source : Naukri.com
 
 
 
