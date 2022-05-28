@@ -13,11 +13,11 @@
  
  ➡️   [Tech Stack](#-tech-stack)
  
- ➡️   [How to run the project?](#-How to run the project?)
+ ➡️   [How to run the project?](#-how-to-run-the-project?)
  
- ➡️   [Similarity Score :](#-Similarity Score :)
+ ➡️   [Similarity Score :](#-similarity-score :)
  
- ➡️   [How Cosine Similarity works?](#-How Cosine Similarity works?)
+ ➡️   [How Cosine Similarity works?](#-how-cosine-similarity-works?)
  
 
 ## 👩‍ Overview
