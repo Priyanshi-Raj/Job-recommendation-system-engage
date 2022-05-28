@@ -53,7 +53,7 @@ etc.
 
 Link to youtube demo: https://www.youtube.com/watch?v=qTLlDMXcD6Y
 
-
+[!image](flowchart.png)
 
 ## 👩‍ How to run the project?
 
