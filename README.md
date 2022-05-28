@@ -23,6 +23,8 @@
  
  ➡️   [Content Based Filtering](#-content-based-filtering) 
  
+ ➡️   [Flowchart](#-flowchart) 
+ 
  ➡️   [Dependencies](#-dependencies)
  
  ➡️   [Data Source](#-data-source)
@@ -53,7 +55,6 @@ etc.
 
 Link to youtube demo: https://www.youtube.com/watch?v=qTLlDMXcD6Y
 
-[!image](flowchart.png)
 
 ## 👩‍ How to run the project?
 
@@ -83,6 +84,9 @@ Link to youtube demo: https://www.youtube.com/watch?v=qTLlDMXcD6Y
   
  ## Content Based Filtering
  Content-based filtering is a type of recommender system that attempts to guess what a user may like based on that user's activity. 
+ 
+ ##Flowchart
+ ![image](flowchart.png)
 
  ##  Dependencies :  
   1.matplot.lib
