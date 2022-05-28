@@ -34,11 +34,17 @@ It suggests jobs on basis of various criterias such as skills, education, experi
 
 ## 👬 Features
 1.Recommendations on basis of Location , Industry and Experience
+
 2.Recommendations of jobs of similar types based on cosine similarity.
+
 3.Want to change your industry?
+
 4.Correlational Heatmaps
+
 5.Interactive graph visualizations
+
 6.Location-wise jobs
+
 7.Company and sectors with highest no. of jobs 
 etc.
 
