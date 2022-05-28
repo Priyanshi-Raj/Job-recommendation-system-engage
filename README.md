@@ -80,8 +80,9 @@ etc.
   7.streamlit_option_menu
   
   8.wordcloud
-##  Data source : Naukri.com
-    [Get the entire dataset](https://drive.google.com/drive/folders/1jGbHGVFk_FtySDhIKmZd1VjJdtfuq-bI?usp=sharing)
+##  Data source 
+   Dataset is downloaded from naukri.com
+  Get the entire data from this [link](https://drive.google.com/drive/folders/1jGbHGVFk_FtySDhIKmZd1VjJdtfuq-bI?usp=sharing)
 
 
 
