@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9-blueviolet)
 ![Frontend](https://img.shields.io/badge/Framework-streamlit-red)
 <!-- ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green) -->
-![DATA](https://img.shields.io/badge/naukri.com)
+<!-- ![DATA](https://img.shields.io/badge/naukri.com) -->
 ## 📋 Table of Contents
  ➡️   [Overview](#-overview)
  
