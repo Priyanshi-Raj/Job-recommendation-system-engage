@@ -194,23 +194,7 @@ if choose == "Experience and Vacancies":
     st.pyplot(fig5)
     st.table(datas['Education'].value_counts())
 
-# st.table(datas['Industry'].value_counts())
-# comparison of different jobs
-# st.header("COMPARISON OF DIFFERENT JOBS")
-# fig7 = plt.figure(figsize=(15,6))
-# plt.rcParams['figure.figsize'] = (15, 6)
-# plt.style.use('fivethirtyeight')
 
-# x.plot()
-# plt.xticks( np.arange(15),('Accounting And Finance', 'Administrative Support', 'Baker',
-#        'Buildings And Facilities', 'Buyer', 'Cashier',
-#        'Communications And Media', 'Corporate Research',
-#        'Finance  And Accounting', 'Human Resources', 'Meat Cutter', 'Produce',
-#        'Secretary', 'Stockkeeping', 'Systems Analyst'),
-#         rotation = 90)
-# plt.title('Comparison of Different Jobs', fontsize = 20)
-# st.line_chart(fig7)
-# plt.show()
 # companies wise jobs
 if choose == "Top Companies and Sectors for Jobs":
     st.image("./image/sc.png")
