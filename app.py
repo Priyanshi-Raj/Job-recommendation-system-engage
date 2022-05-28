@@ -1,7 +1,7 @@
 from matplotlib import image
 from streamlit_option_menu import option_menu
-# from wordcloud import STOPWORDS
-# from wordcloud import WordCloud
+from wordcloud import STOPWORDS
+from wordcloud import WordCloud
 import requests
 import pickle
 import streamlit as st
@@ -197,40 +197,39 @@ if choose == "Experience and Vacancies":
 
 # companies wise jobs
 if choose == "Top Companies and Sectors for Jobs":
-    st.image("./image/sc.png")
-    # stopwords = set(STOPWORDS)
-    # wordcloud = WordCloud(background_color='gold',
-    #                       max_words=50,
-    #                       stopwords=stopwords,
-    #                       width=2000,
-    #                       height=2000).generate(str(datas['jobtitle']))
+    stopwords = set(STOPWORDS)
+    wordcloud = WordCloud(background_color='gold',
+                          max_words=50,
+                          stopwords=stopwords,
+                          width=2000,
+                          height=2000).generate(str(datas['jobtitle']))
 
-    # wordcloud2 = WordCloud(background_color='lightgrey',
-    #                        stopwords=stopwords,
-    #                        width=2000,
-    #                        height=2000).generate(str(datas['company']))
-    # fig9, ax = plt.subplots(figsize=(12, 8))
+    wordcloud2 = WordCloud(background_color='lightgrey',
+                           stopwords=stopwords,
+                           width=2000,
+                           height=2000).generate(str(datas['company']))
+    fig9, ax = plt.subplots(figsize=(12, 8))
 
-    # plt.subplot(1, 2, 1)
-    # plt.imshow(wordcloud)
-    # plt.title('Job Titles', fontsize=20)
-    # plt.axis('off')
-    # fig10, ax = plt.subplots(figsize=(12, 8))
+    plt.subplot(1, 2, 1)
+    plt.imshow(wordcloud)
+    plt.title('Job Titles', fontsize=20)
+    plt.axis('off')
+    fig10, ax = plt.subplots(figsize=(12, 8))
 
-    # plt.subplot(1, 2, 2)
-    # plt.imshow(wordcloud2)
-    # plt.title('Companies', fontsize=20)
-    # plt.axis('off')
+    plt.subplot(1, 2, 2)
+    plt.imshow(wordcloud2)
+    plt.title('Companies', fontsize=20)
+    plt.axis('off')
 
-    # plt.show()
+    plt.show()
 
-    # col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2)
 
-    # with col1:
-    #     st.pyplot(fig9)
+    with col1:
+        st.pyplot(fig9)
 
-    # with col2:
-    #     st.pyplot(fig10)
+    with col2:
+        st.pyplot(fig10)
 # top 20 companies providing jobs
     fig8 = plt.figure(figsize=(15, 12))
 
@@ -263,12 +262,6 @@ if choose == "Want to change your industry?":
         industry_list
     )
     
-
-# lets group the data wrt jobs family
-
-# x = jobs.groupby(['JobFamilyDescription']).agg('mean')
-# x = x.drop(['ID','JobFamily','JobClass'], axis = 1)
-# x.style.background_gradient(cmap = 'Reds')
  #  def recommendation_jobs(Industry = list(datas['Industry'].value_counts().index)):
     x = pd.crosstab(datas['Education'], datas['Industry'])
     jobs = x[select_previous_industry]
