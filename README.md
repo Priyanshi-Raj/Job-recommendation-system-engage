@@ -89,21 +89,21 @@ Link to youtube demo: https://www.youtube.com/watch?v=qTLlDMXcD6Y
  ![image](flowchart.png)
 
  ##  Dependencies :  
-  1.matplot.lib
+  1. matplot.lib
   
-  2.numpy
+  2. numpy
   
-  3.pandas
+  3. pandas
   
-  4.requests
+  4. requests
   
-  5.seaborn
+  5. seaborn
   
-  6.streamlit
+  6. streamlit
   
-  7.streamlit_option_menu
+  7. streamlit_option_menu
   
-  8.wordcloud
+  8. wordcloud
 ##  Data source 
    Dataset is downloaded from naukri.com
    
