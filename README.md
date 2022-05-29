@@ -31,8 +31,8 @@
  
 
 ## 👩‍ Overview
-It is a web-based application that suggests users the most suitable jobs for them.
-It suggests jobs on basis of various criterias such as skills, education, experience,location etc.
+It is a web-based application that recommends the most suitable jobs for the user by using various algorithms like decision tree, cosine similarity,user's liking , "user with similar education joined what" etc.
+Apart from recommending the best jobs this app also helps to visualize various queries related to jobs with interactive plots like correlational heat maps , location wise availability of jobs, most jobs producing skills , experience required ,top sectors, vacancies available etc.
 
 ## 👬 Features
 1.Recommendations on basis of Location , Industry and Experience
@@ -107,7 +107,7 @@ Link to youtube demo: https://www.youtube.com/watch?v=qTLlDMXcD6Y
 ##  Data source 
    Dataset is downloaded from naukri.com
    
-  Get the entire data from this [link](https://drive.google.com/drive/folders/1jGbHGVFk_FtySDhIKmZd1VjJdtfuq-bI?usp=sharing)
+  Get the entire data from this [link](https://drive.google.com/drive/folders/1jGbHGVFk_FtySDhIKmZd1VjJdtfuq-bI?usp=sharing).
 
 
 
