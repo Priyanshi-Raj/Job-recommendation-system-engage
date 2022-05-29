@@ -1,7 +1,7 @@
 # Job-recommendation-system-engage
 
 # 📖 JOBS RECOMMENDATION SYSTEM
-### 🧐 Get the job you are most suitable for!!
+### 🧐 Get the most suitable job for yourself!!
 
 
 ![Python](https://img.shields.io/badge/Python-3.9-blueviolet)
