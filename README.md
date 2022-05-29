@@ -85,7 +85,7 @@ Link to youtube demo: https://www.youtube.com/watch?v=qTLlDMXcD6Y
  ## Content Based Filtering
  Content-based filtering is a type of recommender system that attempts to guess what a user may like based on that user's activity. 
  
- ##Flowchart
+ ## Flowchart
  ![image](flowchart.png)
 
  ##  Dependencies :  
