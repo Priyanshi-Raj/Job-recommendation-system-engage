@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 st.title("JOB RECOMMENDATION SYSTEM")
 st.image("./image/job_search_portals.png")
-# sidebar
+# sidebar starts
 with st.sidebar:
     choose = option_menu("App Gallery", ["Recommender", "Other Recommendations", "Want to change your industry?", "Location-wise jobs", "Jobs on basis of skills", "Correlational Heatmaps and Our Recommendations", "Experience and Vacancies", "Top Companies and Sectors for Jobs"],
                          icons=['house', 'camera fill', 'kanban',
