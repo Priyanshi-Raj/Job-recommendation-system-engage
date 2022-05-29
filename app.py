@@ -50,9 +50,7 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 datas = pickle.load(open('job_list.pkl', 'rb'))
-# cosine_sim = pickle.load(open('cosine_sim.pkl', 'rb'))
 
-# pd.set_option('display.max_rows', 150)
 if choose == "Recommender":
     city_list = datas['joblocation_adress'].unique()
     industry_list = datas['Industry'].unique()
@@ -70,7 +68,7 @@ if choose == "Recommender":
     selected_exp = st.selectbox(
         "Type or select minimum-experience from the dropdown",
         exp_list
-        #    ('0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','25','26')
+        
     )
     ans = datas.loc[(datas['joblocation_adress'] == selected_city)
                     & (datas['Industry'] == selected_industry)
